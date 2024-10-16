@@ -44,10 +44,10 @@ func main() {
 
 		if rl.IsKeyDown(rl.KeySpace) {
 			texture = rl.LoadTextureFromImage(birdUp)
-			yCoords -= speed
+			//yCoords -= speed
 		} else {
 			texture = rl.LoadTextureFromImage(birdDown)
-			yCoords += speed
+			//yCoords += speed
 		}
 
 		// Draw the pipes
